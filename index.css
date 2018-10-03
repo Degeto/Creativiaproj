@@ -1,0 +1,423 @@
+body {
+  margin: 0px;
+  padding: 0px; 
+}
+
+.CreatHead {
+  height: 70px;
+  background-color: #000000;
+}
+
+.CreatMenu {
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  left: 500px;
+  list-style: none;
+  color: #a4a4a4;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+li {
+  margin-left: 28px; 
+  align-items: center;
+}
+
+.CreatMenu:hover:before {
+  content: "";
+  position: absolute;
+  align-self: center;
+  top: -110%;
+  left: 15%;
+  right: 15%;
+  width: 70%;
+  height: 3px;
+  background-color: #ff0036;
+}
+.CreatMenu:hover:after {
+  content: "";
+  position: absolute;
+  align-self: center;
+  bottom: -110%;
+  left: 15%;
+  right: 15%;
+  width: 70%;
+  height: 3px;
+  background-color: #ff0036;
+}
+
+.CreatMenu:hover {
+  color: #ffffff;
+  letter-spacing: 0.07px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+}
+
+.logo {
+  position: absolute;
+  left: 115px;
+  top: -25px;
+  z-index: 1;
+}
+
+.welcome {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url(./assets/img/photodune-3598715-woman-in-red-m.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:0 0 0 6600px rgba(0, 0, 0, 0.7) inset;
+}
+
+.welcome__h1 {
+  display: inline;
+  position: relative;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+  position: relative;
+  top: 285px;
+}
+
+.welcome__h2 {
+  display: inline;
+  position: relative;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+  position: relative;
+  top: 100px;
+}
+
+.maintext {
+  width: 1021px;
+  position: relative;
+  top: 330px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.maintext2 {
+  color: #505050;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  position: relative;
+  top: 130px;
+}
+
+.maintext3 {
+  width: 566px;
+  height: 80px;
+  color: #505050;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  position: relative;
+  top: 200px;
+  left: 117px;
+}
+
+.box {
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: 230px;
+  left: 117px;
+  width: 569px;
+  height: 25px;
+  border: 1px solid #e7e7e7;
+  background-color: #f7f7f7;
+  padding: 15px 0px 10px 15px;
+  margin: 0px 0px 10px 0px;
+}
+
+
+.WIS {
+  width: 570px;
+  height: 361px;
+ float: right;
+ position: relative;
+ top: 220px;
+ right: 200px;
+}
+.bar {
+ position: relative;
+ top: 700px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
+
+.list {
+  position: relative;
+  top: 700px;
+  -align-items: stretch;
+ }
+
+ .listitem {
+  display: inline-block;
+  list-style: none;
+  width: 150px;
+ }
+
+
+.descp {
+ float: left;
+}
+
+.button {
+  width: 170px;
+  height: 50px;
+  background-color: #131313;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  position: relative;
+  top: 360px;
+  margin-right: 30px;
+}
+
+.button:hover {
+  background-color: #ff0036;
+  transition: all 0.35s ease;
+}
+
+.portfolio {
+  width: 100%;
+  height: 1076px;
+  position: relative;
+  top: 700px;
+  background-color: #262626;
+}
+.portfolio__head {
+  padding-top: 99px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+}
+.portfolio__listitem {
+  margin: 10px 20px 0px 20px;
+  display: inline-block;
+  list-style: none;
+  color: #a4a4a4;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.portfolio__listitem:hover {
+  color: #ff0036;
+  transition: all 0.35s ease;
+}
+
+.portfolio__listone {
+  margin-top: 100px;
+}
+
+.portfolio__listoneitem {
+  margin: 0px;
+  padding: 0px;
+  display: inline-flex;
+  justify-content: stretch;
+  list-style: none;
+}
+
+.portfolio__bar {
+  position: relative;
+  top: 57px;
+}
+
+.products {
+  position: relative;
+  top: 700px;
+}
+
+.products__head {
+  position: relative;
+  top: 100px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.products__maintext {
+  position: relative;
+  top: 100px;
+  color: #505050;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+a {
+  color: #ff0036;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: all 0.35s ease;
+}
+
+.portfolio__phone {
+  position: relative;
+  top: 150px;
+}
+
+.portfolio__button {
+  width: 170px;
+  height: 50px;
+  background-color: #393939;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  position: absolute;
+  top: 800px;
+  left: 46%;
+  right: 45%;
+}
+
+.portfolio__button:hover {
+  opacity: 0.7;
+  transition: all 0.35s ease;
+}
+
+.box2 {
+  position: relative;
+  top: -350px;
+  left: 150px;
+  width: 370px;
+  border: 1px solid #e7e7e7;
+  background-color: #ffffff;
+  padding: 0px 0px 10px 0px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: end;
+}
+
+.box3 {
+  position: relative;
+  top: -620px;
+  right: -1450px;
+  width: 370px;
+  border: 1px solid #e7e7e7;
+  background-color: #ffffff;
+  padding: 0px 0px 10px 0px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: end;
+}
+
+.check {
+  padding: 10px 21px 10px 10px;
+}
+
+.clients {
+  position: relative;
+  top: 450px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url(./assets/img/photodune-3414776-business-group-m.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:0 0 0 6600px rgba(0, 0, 0, 0.9) inset;
+}
+
+.clients__head {
+  position: relative;
+  top: 100px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.clients__maintext {
+  position: relative;
+  top: 120px;
+  color: #a4a4a4;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.clients__head2 {
+  position: relative;
+  top: 400px;
+  margin-left: 300px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.clients__maintext2 {
+  width: 569px;
+  position: relative;
+  top: 460px;
+  left: 100px;
+  text-align: center;
+  color: #a4a4a4;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.clients__faceimg {
+  position: relative;
+  top: 500px;
+  left: 360px
+}
+
+.clients__list {
+  margin-top: 100px;
+  display: flex;
+}
+
+.clients__listitem {
+  position: relative;
+  margin: 30px;
+  padding: 0px;
+  justify-content: flex-end;
+  list-style: none;
+}
